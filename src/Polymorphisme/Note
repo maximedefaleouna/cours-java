@@ -1,0 +1,22 @@
+Une même méthode peut se comporter différemment selon l’objet sur lequel elle agit.
+
+
+------------ Polymorphisme statique (ou surcharge / compile-time)
+
+Appelé méthode overloading.
+
+La même méthode peut exister plusieurs fois avec :
+
+un nombre différent de paramètres, ou
+
+des types différents de paramètres.
+
+La résolution se fait à la compilation : le compilateur choisit quelle version de la méthode appeler.
+
+-------------Polymorphisme dynamique (ou redéfinition / run-time)
+
+             Appelé méthode overriding.
+
+             Une sous-classe peut redéfinir une méthode héritée de la super-classe.
+
+             La méthode réellement exécutée dépend du type réel de l’objet, pas du type de la variable.

@@ -1,0 +1,15 @@
+a. Définition
+L’héritage est un mécanisme de réutilisation du code :
+une classe (dite classe fille ou sous-classe) hérite des attributs et méthodes d’une autre classe (dite classe mère ou super-classe).
+
+En d’autres termes :
+On crée de nouvelles classes à partir de classes existantes, pour éviter de réécrire le même code.
+
+b. Pourquoi utiliser l’héritage ?
+Réutiliser du code existant.
+
+Éviter la duplication.
+
+Organiser les concepts de manière hiérarchique (du plus général au plus spécifique).
+
+Faciliter la maintenance (modifier la super-classe impacte toutes ses sous-classes).
